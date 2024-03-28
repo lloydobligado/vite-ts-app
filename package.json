@@ -2,6 +2,12 @@
   "name": "vite-ts-app",
   "private": true,
   "version": "0.0.0",
+  "contributors": [
+    {
+      "name": "Lloyd Carie M. Obligado",
+      "url": "https://github.com/lloydobligado"
+    }
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,8 +18,6 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.9",
-    "@mui/material": "^5.14.10",
     "@tanstack/react-query": "^4.35.3",
     "@tanstack/react-query-devtools": "^4.35.3",
     "axios": "^1.5.0",
@@ -23,12 +27,15 @@
     "react-router-dom": "^6.16.0"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.12",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react-swc": "^3.3.2",
     "autoprefixer": "^10.4.16",
+    "daisyui": "^4.9.0",
     "eslint": "^8.45.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -39,9 +46,9 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "description": "Template React TypeScript",
   "main": "postcss.config.js",
   "keywords": [],
-  "author": "",
+  "author": "Lloyd Carie Obligado <lloydobligado@gmail.com>",
   "license": "ISC"
 }

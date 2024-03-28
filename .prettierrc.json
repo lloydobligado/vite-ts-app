@@ -2,9 +2,10 @@
   "bracketSpacing": true,
   "bracketSameLine": false,
   "singleQuote": true,
-  "arrowParens": "avoid",
-  "printWidth": 100,
   "tabWidth": 2,
+  "trailingComma": "es5",
+  "printWidth": 100,
   "semi": true,
+  "arrowParens": "avoid",
   "endOfLine": "auto"
 }

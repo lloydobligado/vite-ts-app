@@ -39,3 +39,10 @@ out/
 *-lock.json
 *-lock.yaml
 *.lock
+
+# docker
+docker-compose.yml
+
+# Read Me
+README.md
+README.RULES.MD
